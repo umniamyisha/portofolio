@@ -28,9 +28,11 @@ const [result] = await db.query('DELETE FROM messages WHERE id =? ', [id]);
 return result;
 };
 
+
+
 module.exports = {
-getAllContacts,
-getContactById,
-createContact,
-deleteContact,
+    getAllContacts,
+    getContactById,
+    createContact,
+    deleteContact,
 };
